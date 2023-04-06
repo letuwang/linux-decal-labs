@@ -1,0 +1,14 @@
+[Unit]
+Description=Managing a simple local web server at port 5000
+Requires=network.target
+After=
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+ExecStart=/home/letuwang/decal-labs/4/run
+User=letuwang
+Restart=always
+RestartSec=10
+
