@@ -14,3 +14,5 @@ $TTL	604800
 ns  IN  A   127.0.0.1                ; IP for name server (random ip)
 @	IN	A	1.2.3.4                  ; A record for example.com (random ip)
 ; Add more records (Ex. CNAME, AAAA, MX, subdomains...)
+test2 IN A 93.184.216.34
+test2 IN A 93.184.216.35
